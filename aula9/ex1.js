@@ -1,17 +1,5 @@
-const prompt = require("prompt-sync")();
-terminou = false;
-p = i = 0;
-while (!terminou) {
-    n = parseInt(prompt("Digite um número, ou zero para terminar: "));
-    if (n == 0) {
-        terminou = true;
-    } else {
-        if (n % 2 == 0) {
-            p = p + 1;
-        } else {
-            i = i + 1;
-        }
-    }
+// laço "for"
+
+for (i = 1; i <= 10; i++) { //laço de 1 a 10
+    console.log (i * 3); //imprime i x 3
 }
-console.log("P = ", p);
-console.log("I = ", i);1

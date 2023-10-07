@@ -1,3 +1,7 @@
-for (let cont = 0; cont <= 10; cont++) {
-    console.log(cont, "Olá mundo!");
+//laço "while"
+
+i = 1; //inicia a var com 1
+
+while (i <= 10) {
+    console.log(i * 3);
 }
